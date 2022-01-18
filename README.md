@@ -7,3 +7,12 @@
 > make generate manifests fmt
 > ./hack/update-codegen.sh
 ```
+
+## Update api type and generated code
+
+```
+> make generate manifests fmt
+> ./hack/update-codegen.sh
+
+> go install -v ./...
+```

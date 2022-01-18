@@ -30,6 +30,7 @@ type AppSpec struct {
 
 	// Foo is an example field of App. Edit app_types.go to remove/update
 	Foo string `json:"foo,omitempty"`
+	Bar string `json:"bar,omitempty"`
 }
 
 // AppStatus defines the observed state of App

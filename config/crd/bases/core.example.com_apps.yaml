@@ -36,6 +36,8 @@ spec:
           spec:
             description: AppSpec defines the desired state of App
             properties:
+              bar:
+                type: string
               foo:
                 description: Foo is an example field of App. Edit app_types.go to
                   remove/update

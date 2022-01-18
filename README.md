@@ -10,9 +10,15 @@
 
 ## Update api type and generated code
 
-```
+```bash
 > make generate manifests fmt
 > ./hack/update-codegen.sh
 
 > go install -v ./...
+```
+
+# Install crd
+
+```bash
+> kubectl apply -f config/crd/bases/
 ```
